@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+nav{
+  display: grid;
+  grid-template-columns:10% 10% 1fr ;
+  min-height: 20vh;
+  color:white;
+  align-items: center;
+  z-index: 3;
+}
+ul{
+  grid-column: 3/3;
+list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: #3b6978;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 10px 20px;
+    transition: all 0.25s ease-out;
+
+}
+ul a:hover{
+  color:white;
+
+}
+li{
+  display: inline;
+}
+#logo{
+  font-size: 50px;
+  color: #84a9ac;
+  grid-column:2/3;
+}
+.nav-items{
+justify-self:end;
+}
